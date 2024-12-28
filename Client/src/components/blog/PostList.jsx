@@ -46,7 +46,7 @@ const PostList = () => {
           <div key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden">
             {post.poster && (
               <img
-                src={`http://localhost:5000${post.poster}`}
+                src={`https://blogapp-x629.onrender.com${post.poster}`}
                 alt={post.title}
                 className="w-full h-48 object-cover"
               />
