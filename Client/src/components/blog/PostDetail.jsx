@@ -46,7 +46,7 @@ const PostDetail = () => {
     <div className="max-w-4xl mx-auto mt-10 px-4">
       {post.poster && (
         <img
-          src={`http://localhost:5000/${post.poster}`}
+          src={`https://blogapp-x629.onrender.com/${post.poster}`}
           alt={post.title}
           className="w-full h-64 object-cover rounded-lg mb-6"
         />
