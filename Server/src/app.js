@@ -9,6 +9,7 @@ const app = express();
 app.use(cors({
   origin : "https://blogapp-1-wx1u.onrender.com"
 }));
+app.options("*", cors())
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
