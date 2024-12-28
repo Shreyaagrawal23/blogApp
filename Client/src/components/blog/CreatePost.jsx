@@ -18,7 +18,7 @@ const CreatePost = () => {
     if (poster) formData.append('poster', poster);
 
     try {
-      const response = await fetch('http://localhost:5000/api/posts', {
+      const response = await fetch('https://blogapp-x629.onrender.com/api/posts', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`
